@@ -1,0 +1,71 @@
+/*
+Page styling
+*/
+body{
+    background-color: darkslategray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+/*
+Styling for game elements
+*/
+.game{
+    display:flex;
+    justify-content: center;
+}
+
+table{
+    border-color: gold;
+    border-radius: 2px;
+    margin: 10px;
+    padding: 10px;
+}
+
+td{
+    margin: 20px;
+    padding: 20px;
+   
+}
+
+button{
+
+    font-size: 30px;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+
+   color: lightblue;
+}
+
+/*
+Styling for the score board
+*/
+.scores{
+    display: flex;
+    justify-content: center;
+}
+
+#player1Stat{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+    
+}
+#player2Stat{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 15%;
+}
+
+
+.players{
+    font-size: 19px;
+    
+}
+
+
