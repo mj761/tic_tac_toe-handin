@@ -51,7 +51,7 @@
 			} else if (player === 1 && !fieldsPlayed.includes(this.id)) {
 				this.innerHTML = 'O';
                 this.style.font = 'normal bold 40px Courier New, serif';
-				this.style.color = 'white';
+				this.style.color = 'gold';
                 this.style.textAlign = 'center';
 				fieldsPlayer1.push(parseInt(this.id));
 				player = 0
@@ -152,13 +152,3 @@
         }
         //has to end with this otherwise the numbers will disappear after
         gameStats();
-
-    
-    
-      
-    
-
-
-        
-     
-		
